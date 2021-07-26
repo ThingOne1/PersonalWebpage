@@ -1,0 +1,74 @@
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: serif;
+}
+hr {
+  border-Style: none;
+  border-color: grey;
+  border-top-style: dotted;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-width: 5px;
+  width: 4%;
+}
+p {
+  color: #334257;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+h1{
+  margin: 100px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #334257;
+  font-size: 600%;
+  line-height: 2;
+}
+h2{
+  color: #334257;
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color: #334257;
+}
+
+.Top {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 400px;
+}
+.middle-container{
+  background-color: #EAF6F6;
+  position:relative;
+}
+.skills{
+}
+.bottom-container{
+  background-color: #EAF6F6;
+}
+.bottom-Cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.Myface{
+  position:fixed;
+  padding: 50px;
+  left: 0px;
+  top: 0;
+}
+.Contact{
+  position: absolute;
+  right: 800px;
+  top: 1100px;
+}
