@@ -30,7 +30,6 @@ h2{
   font-size: 35px;
   font-weight: normal;
 }
-
 h3{
     font-family: 'Merriweather', serif;
     color: #334257;
@@ -51,6 +50,13 @@ h3{
 .bottom-container{
   background-color: #EAF6F6;
 }
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
 .bottom-Cloud {
   position: absolute;
   left: 300px;
@@ -69,4 +75,24 @@ h3{
 }
 .Contact{
   position: relative;
+}
+.Python{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+.C{
+  width: 13%;
+  float: right;
+  margin-left: 30px;
+}
+.HTML{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+.CSS{
+  width: 13%;
+  float: right;
+  margin-left: 30px;
 }
