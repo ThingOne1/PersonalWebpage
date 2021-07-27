@@ -41,9 +41,14 @@ h3{
   padding-top: 100px;
   padding-bottom: 400px;
 }
+.Intro{
+  width: 50%;
+  margin: auto;
+}
 .middle-container{
   background-color: #EAF6F6;
   position:relative;
+  text-align: center;
 }
 .skills{
 }
