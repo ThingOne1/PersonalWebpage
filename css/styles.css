@@ -13,7 +13,7 @@ hr {
   width: 4%;
 }
 p {
-  color: #334257;
+  color: #40514E;
   font-family: 'Merriweather', serif;
   font-weight: normal;
 }
@@ -32,7 +32,7 @@ h2{
 }
 h3{
     font-family: 'Merriweather', serif;
-    color: #334257;
+    color: #EAF6F6;
 }
 
 .Top {
@@ -48,14 +48,18 @@ h3{
 .skills{
 }
 .bottom-container{
-  background-color: #EAF6F6;
+  background-color: #66BFBF;
+  padding-bottom: 20px;
+}
+.contact-me{
+  background-color: #66BFBF;
+  padding-top: 20px;
 }
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
-
 }
 .bottom-Cloud {
   position: absolute;
@@ -95,4 +99,11 @@ h3{
   width: 13%;
   float: right;
   margin-left: 30px;
+}
+.Linkdin{
+  width: 3%;
+}
+.Facebook{
+  width: 2%;
+  position: center;
 }
