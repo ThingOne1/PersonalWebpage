@@ -16,6 +16,7 @@ p {
   color: #40514E;
   font-family: 'Merriweather', serif;
   font-weight: normal;
+  line-height: 2;
 }
 h1{
   margin: 100px auto 0 auto;
