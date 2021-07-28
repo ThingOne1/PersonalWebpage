@@ -41,7 +41,7 @@ h3{
   position: fixed;
   display: inline-block;
   width: 350px;
-  height: 350px;
+  height: 250px;
   background: transparent url("../images/Ricardo-legal.png") no-repeat 0 0;
 }
 .Myface2:hover{
