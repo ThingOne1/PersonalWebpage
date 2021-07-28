@@ -126,10 +126,12 @@ h3{
 }
 .Linkdin{
   width: 3%;
+  margin: 10px 20px;
 }
 .Facebook{
   width: 2%;
   position: center;
+  margin: 10px 20px;
 }
 .BUTTON_FHV {
    background: #1952A1;
