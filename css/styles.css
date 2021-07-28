@@ -35,6 +35,18 @@ h3{
     font-family: 'Merriweather', serif;
     color: #EAF6F6;
 }
+.Myface2{
+  left: 50px;
+  top: 50px;
+  position: fixed;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: transparent url("../images/Ricardo-legal.png") no-repeat 0 0;
+}
+.Myface2:hover{
+  background: transparent url("../images/Pisca.png") no-repeat 0 0;
+}
 
 .Top {
   background-color: #EAF6F6;
@@ -51,8 +63,11 @@ h3{
   position:relative;
   text-align: center;
 }
-.skills{
+.Computador{
+  position: relative;
+  width: 150px;
 }
+
 .bottom-container{
   background-color: #66BFBF;
   padding-bottom: 20px;
@@ -69,7 +84,7 @@ h3{
 }
 .bottom-Cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 .top-cloud{
@@ -82,6 +97,9 @@ h3{
   padding: 50px;
   left: 0px;
   top: 0;
+}
+.Myface:hover{
+  background: url("images/Pisca.png") no-repeat;
 }
 .Contact{
   position: relative;
@@ -122,12 +140,12 @@ h3{
    background-image: -webkit-gradient(to bottom, #1952A1, #EAF6F6);
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
-   border-radius: 20px;
+   border-radius: auto;
    color: #FFFFFF;
-   font-family: Arial;
+   font-family: 'Merriweather', serif;
    font-size: 15px;
    font-weight: 100;
-   padding: 15px;
+   padding: 13px;
    -webkit-box-shadow: 1px 1px 20px 0 #000000;
    -moz-box-shadow: 1px 1px 20px 0 #000000;
    box-shadow: 1px 1px 20px 0 #000000;
