@@ -49,6 +49,7 @@ h3{
   display: inline-block;
   width: 350px;
   height: 250px;
+  size:auto;
   background: transparent url("../images/Ricardo-legal.png") no-repeat 0 0;
 }
 .Myface2:hover{
@@ -72,6 +73,7 @@ h3{
 .student{
   margin: 100px auto 0 auto;
   line-height: 1;
+  width: auto;
 }
 .Ricardo-paz{
   margin: 290px auto 0 auto;
@@ -87,7 +89,7 @@ h3{
 }
 .Computador{
   position: relative;
-  width: 150px;
+  width: 8%;
   left : 45%;
 }
 .Contact{
@@ -113,11 +115,13 @@ h3{
   position: absolute;
   left: 250px;
   bottom: 300px;
+  width: 12%;
 }
 .top-cloud{
   position: absolute;
   right: 300px;
   top: 50px;
+  width: 12%;
 }
 .Myface{
   position:fixed;
