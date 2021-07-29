@@ -67,7 +67,7 @@ h3{
 }
 .links1{
   margin-left: auto;
-  padding-right: 20px;
+  padding-right: auto;
 }
 .student{
   margin: 100px auto 0 auto;
@@ -155,8 +155,10 @@ h3{
   margin-right: auto;
 }
 .Linkdin{
+  position: relative;
   width: 3%;
   margin: 10px 20px;
+
 }
 .Facebook{
   width: 2%;
