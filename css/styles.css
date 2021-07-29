@@ -96,6 +96,7 @@ h3{
 .bottom-container{
   background-color: #66BFBF;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .contact-me{
   background-color: #66BFBF;
@@ -103,7 +104,7 @@ h3{
 }
 .skill-row{
   width: 50%;
-  margin: 7em auto 7em auto;
+  margin: 9em auto 9em auto;
   text-align: left;
   line-height: 4;
 
@@ -126,36 +127,35 @@ h3{
 .Python{
   width: 7em;
   float: left;
-  margin-right: 30px;
+  margin-right: 1em;
 }
 .C{
   width: 6em;
   float: right;
-  margin-left: 30px;
+  margin-left: 1em;
 }
 .HTML{
   width: 7em;
   float: left;
-  margin-right: 30px;
+  margin-right: 1em;
 }
 .CSS{
   width: 5em;
   float: right;
-  margin-left: 40px;
-  margin-bottom: 30px;
+  margin-left: 1em;
+  margin-bottom: 1em;
   margin-top: auto;
   margin-right: auto;
 }
 .Linkdin{
-  position: relative;
+  position: absolute;
   width: 5em;
-  margin: 10px 20px;
-
+  left: 65%;
 }
 .Facebook{
-  width: 2%;
-  position: center;
-  margin: 10px 20px;
+  position: absolute;
+  width: 3em;
+  right: 20px;
 }
 .BUTTON_FHV {
    background: #1952A1;
@@ -181,6 +181,7 @@ h3{
    display: inline-block;
    cursor: pointer;
    text-align: center;
+   margin-top: 3em;
 }
 .BUTTON_FHV:hover {
    border: solid #11999E 1px;
@@ -198,5 +199,6 @@ h3{
 .Rights-Reserved{
   font-size: 0.75rem;
   color: #EAF6F6;
-  padding: 5px 0 auto auto;
+  padding: 20px auto 0 auto;
+  margin: 20px;
 }
