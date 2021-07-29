@@ -24,11 +24,12 @@ h1{
   color: #334257;
   line-height: 2;
   text-align: center;
+  font-size: 600%;
 }
 h2{
   color: #334257;
   font-family: 'Merriweather', serif;
-  font-size: 35px;
+  font-size: 30%;
   font-weight: normal;
   text-align: center;
 }
@@ -45,10 +46,9 @@ h3{
   left: 50px;
   top: 80px;
   position: fixed;
-  display: inline-block;
-  width: 350px;
-  height: 250px;
-  size:auto;
+  display: inline-flex;
+  width: 22em;
+  height: 15em;
   background: transparent url("../images/Ricardo-legal.png") no-repeat 0 0;
 }
 .Myface2:hover{
@@ -61,16 +61,16 @@ h3{
   padding-bottom: 400px;
 }
 .Title{
-  font-size: 600%;
-  margin: 100px auto 0 auto;
+  margin: 2em auto 0 auto;
   line-height: 2;
+  font-size: 600%;
 }
 .links1{
   margin-left: auto;
   padding-right: auto;
 }
 .student{
-  margin: 100px auto 0 auto;
+  margin: 2em auto 0 auto;
   line-height: 1;
   width: auto;
 }
@@ -114,13 +114,13 @@ h3{
   position: absolute;
   left: 250px;
   bottom: 300px;
-  width: 12%;
+  width: 15%;
 }
 .top-cloud{
   position: absolute;
   right: 300px;
   top: 50px;
-  width: 12%;
+  width: 15%;
 }
 .Myface{
   position:fixed;
