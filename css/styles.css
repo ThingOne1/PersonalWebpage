@@ -19,17 +19,15 @@ p {
   text-align: center;
 }
 h1{
-  margin: 100px auto 0 auto;
+  margin: 20px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #334257;
-  line-height: 2;
   text-align: center;
   font-size: 600%;
 }
 h2{
   color: #334257;
   font-family: 'Merriweather', serif;
-  font-size: 30%;
   font-weight: normal;
   text-align: center;
 }
@@ -57,11 +55,11 @@ h3{
 .Top {
   background-color: #EAF6F6;
   position: relative;
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 400px;
 }
 .Title{
-  margin: 2em auto 0 auto;
+  margin: 1em auto 0 auto;
   line-height: 2;
   font-size: 7em;
 }
@@ -72,7 +70,7 @@ h3{
 .student{
   margin: 2em auto 0 auto;
   line-height: 1;
-  width: auto;
+  font-size: 2em;
 }
 .Ricardo-paz{
   margin: 290px auto 0 auto;
@@ -105,9 +103,9 @@ h3{
 }
 .skill-row{
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 7em auto 7em auto;
   text-align: left;
-  line-height: 2;
+  line-height: 4;
 
 }
 .bottom-Cloud {
@@ -126,22 +124,22 @@ h3{
   position: relative;
 }
 .Python{
-  width: 8em;
+  width: 7em;
   float: left;
   margin-right: 30px;
 }
 .C{
-  width: 7em;
+  width: 6em;
   float: right;
   margin-left: 30px;
 }
 .HTML{
-  width: 8em;
+  width: 7em;
   float: left;
   margin-right: 30px;
 }
 .CSS{
-  width: 6em;
+  width: 5em;
   float: right;
   margin-left: 40px;
   margin-bottom: 30px;
@@ -150,7 +148,7 @@ h3{
 }
 .Linkdin{
   position: relative;
-  width: 3%;
+  width: 5em;
   margin: 10px 20px;
 
 }
