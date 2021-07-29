@@ -36,6 +36,12 @@ h3{
     color: #EAF6F6;
     text-align: center;
 }
+.Navegador{
+  padding-left: 3%;
+}
+.Menucai{
+  text-align: center;
+}
 .First{
   padding-left: 10px;
   padding-bottom: 5px;
@@ -113,13 +119,13 @@ h3{
   position: absolute;
   left: 250px;
   bottom: 300px;
-  width: 20em;
+  width: 20%;
 }
 .top-cloud{
   position: absolute;
   right: 300px;
   top: 50px;
-  width: 20em;
+  width: 20%;
 }
 .Contact{
   position: relative;
@@ -149,13 +155,14 @@ h3{
 }
 .Linkdin{
   position: absolute;
-  width: 5em;
+  width: 70px;
   left: 65%;
 }
 .Facebook{
   position: absolute;
-  width: 3em;
-  right: 20px;
+  width: 50px;
+  left: 300px;
+  margin: auto;
 }
 .BUTTON_FHV {
    background: #1952A1;
