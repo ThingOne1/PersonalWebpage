@@ -57,13 +57,13 @@ h3{
 .Top {
   background-color: #EAF6F6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 400px;
 }
 .Title{
   margin: 2em auto 0 auto;
   line-height: 2;
-  font-size: 600%;
+  font-size: 7em;
 }
 .links1{
   margin-left: auto;
@@ -88,7 +88,7 @@ h3{
 }
 .Computador{
   position: relative;
-  width: 8%;
+  width: 10em;
   left : 45%;
 }
 .Contact{
@@ -114,43 +114,34 @@ h3{
   position: absolute;
   left: 250px;
   bottom: 300px;
-  width: 15%;
+  width: 20em;
 }
 .top-cloud{
   position: absolute;
   right: 300px;
   top: 50px;
-  width: 15%;
-}
-.Myface{
-  position:fixed;
-  padding: 50px;
-  left: 0px;
-  top: 0;
-}
-.Myface:hover{
-  background: url("images/Pisca.png") no-repeat;
+  width: 20em;
 }
 .Contact{
   position: relative;
 }
 .Python{
-  width: 18%;
+  width: 8em;
   float: left;
   margin-right: 30px;
 }
 .C{
-  width: 13%;
+  width: 7em;
   float: right;
   margin-left: 30px;
 }
 .HTML{
-  width: 18%;
+  width: 8em;
   float: left;
   margin-right: 30px;
 }
 .CSS{
-  width: 12%;
+  width: 6em;
   float: right;
   margin-left: 40px;
   margin-bottom: 30px;
