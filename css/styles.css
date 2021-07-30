@@ -151,14 +151,14 @@ h3{
 }
 .HTML{
   position: relative;
-  width: 10%;
+  width: 11%;
   float: left;
   margin-right: 1em;
 }
 .CSS{
-  width: 8%;
+  width: 9%;
   float: right;
-  margin-left: 1em;
+  margin-left: auto;
   margin-bottom: 1em;
   margin-top: auto;
   margin-right: auto;
@@ -219,4 +219,3 @@ h3{
   padding: 20px auto 0 auto;
   margin: 20px;
 }
-
