@@ -21,6 +21,8 @@ p {
 h1{
   font-family: 'Sacramento', cursive;
   color: #334257;
+  text-align: center;
+  font-weight: normal;
 }
 h2{
   color: #334257;
