@@ -66,9 +66,10 @@ h3{
   padding-bottom: 400px;
 }
 .Title{
-  margin: 1em auto 0 auto;
+  margin: 3% auto 0 auto;
   line-height: 2;
   font-size: 7em;
+  width: 50%;
 }
 .links1{
   margin-left: auto;
@@ -76,8 +77,9 @@ h3{
 }
 .student{
   margin: 2em auto 0 auto;
-  line-height: 1;
+  line-height: 2;
   font-size: 2em;
+  width: 50%;
 }
 .Ricardo-paz{
   margin: 290px auto 0 auto;
@@ -94,11 +96,16 @@ h3{
 .Computador{
   position: relative;
   width: 10em;
-  left : 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Contact{
   position: relative;
-  left : 45%;
+  display: block;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bottom-container{
   background-color: #66BFBF;
