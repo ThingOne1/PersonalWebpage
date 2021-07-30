@@ -69,7 +69,7 @@ h3{
   margin: 3% auto 0 auto;
   line-height: 2;
   font-size: 400%;
-  width: 50%;
+  width: 30%;
 }
 .links1{
   margin-left: auto;
@@ -83,6 +83,7 @@ h3{
 }
 .Ricardo-paz{
   margin: 290px auto 0 auto;
+  width: 7%;
 }
 .Intro{
   width: 50%;
@@ -95,7 +96,7 @@ h3{
 }
 .Computador{
   position: relative;
-  width: 10%;
+  width: 8%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -139,22 +140,23 @@ h3{
   position: relative;
 }
 .Python{
-  width: 7em;
+  width: 10%;
   float: left;
   margin-right: 1em;
 }
 .C{
-  width: 6em;
+  width: 10%;
   float: right;
   margin-left: 1em;
 }
 .HTML{
-  width: 7em;
+  position: relative;
+  width: 10%;
   float: left;
   margin-right: 1em;
 }
 .CSS{
-  width: 5em;
+  width: 8%;
   float: right;
   margin-left: 1em;
   margin-bottom: 1em;
