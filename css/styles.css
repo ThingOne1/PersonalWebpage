@@ -53,8 +53,9 @@ h3{
   display: inline-flex;
   width: 22em;
   height: 15em;
-  background: transparent url("../images/Ricardo-legal.png") no-repeat 0 0;
+  background: transparent no-repeat 0 0;
 }
+
 .Myface2:hover{
   background: transparent url("../images/Pisca2.png") no-repeat 0 0;
 }
