@@ -19,11 +19,8 @@ p {
   text-align: center;
 }
 h1{
-  margin: 20px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #334257;
-  text-align: center;
-  font-size: 600%;
 }
 h2{
   color: #334257;
@@ -66,9 +63,10 @@ h3{
   padding-bottom: 400px;
 }
 .Title{
+  text-align: center;
   margin: 3% auto 0 auto;
   line-height: 2;
-  font-size: 7em;
+  font-size: 400%;
   width: 30%;
 }
 .links1{
@@ -78,7 +76,7 @@ h3{
 .student{
   margin: 2em auto 0 auto;
   line-height: 2;
-  font-size: 2em;
+  font-size: 150%;
   width: 50%;
 }
 .Ricardo-paz{
@@ -217,3 +215,4 @@ h3{
   padding: 20px auto 0 auto;
   margin: 20px;
 }
+
