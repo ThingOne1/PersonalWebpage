@@ -90,6 +90,9 @@ h3{
   font-size: 150%;
   width: 50%;
 }
+.nav-item{
+  padding: 0 18px;
+}
 .Face{
   width: 7%;
   position: relative;
