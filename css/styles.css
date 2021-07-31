@@ -90,6 +90,13 @@ h3{
   font-size: 150%;
   width: 50%;
 }
+.Face{
+  width: 7%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .Ricardo-paz{
   margin: 290px auto 0 auto;
   width: 7%;
@@ -97,6 +104,7 @@ h3{
 .Intro{
   width: 50%;
   margin: auto;
+  padding-bottom: 5%;
 }
 .middle-container{
   background-color: #EAF6F6;
