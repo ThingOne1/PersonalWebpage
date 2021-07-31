@@ -12,6 +12,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -45,10 +48,13 @@
           </ul>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">Personality</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#scrollspyHeading1">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">Personality</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
       </ul>
     </div>
@@ -58,7 +64,6 @@
       <img class="top-cloud"src="images/cloud.png" alt="cloud">
       <h1 class="Title">I'm Ricardo.</h1>
       <img class="Computador" src="images/Ricardo-Computador.png" alt="Computador">
-      <a href="mailto:ricardoaalbuquerquet@gmail.com"><img class="Contact" src="images/follow.png" alt="Follow"></a>
       <h2 class="student"> A computer Science Student</h2>
       <img class="bottom-Cloud" src="images/cloud2.png" alt="cloud">
     </div>
@@ -71,33 +76,65 @@
         <p class="Intro">Welcome to my Website! Now a bit about me, I am Flexible, motivated with a high degree of social competence. Cordial, organized and attentive to details. Flexible and always available to help other departments whenever needed. As a leader I can be quiet or animated, affable or forceful, and I value logic, order and relationships. When the unexpected occurs (which of course it always does), I will not become flustered, but instead I use my flexibility to find another way that works. I am not afraid to ask tough questions, I excel at team building and mentoring. I am prompt and task-oriented, excels at time management and meeting deadlines.</p>
       </div>
       <hr>
-      <div id="scrollspyHeading1" class="skills">
-        <img class="Ricardo-paz" src="images/Ricardo Paz.png" alt="Paz">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="Python" src="images/Python-Logo.png" alt="pythonlogo">
+    <section id="features">
+      <div class="row">
+        <h2 id="scrollspyHeading1">My Skills.</h2>
+        <div class="skill-box col-lg-3">
+          <i class="Icon fab fa-python fa-4x"></i>
           <h3>Python</h3>
-          <p>Python is my favorite programing language, I have experience making bots, e word games with it.</p>
+          <p>Python is my favorite programing language</p>
         </div>
-        <div class="skill-row">
-          <img class="C" src="images/C_Logo.png" alt="C logo">
-          <h3>C</h3>
-          <p>C was my first programing language, I use it mostly at the University. It is like the father of all programing languages for me.</p>
-        </div>
-        <div class="skill-row">
-          <img class="HTML" src="images/HTML.png" alt="foto Html">
+
+        <div class="skill-box col-lg-3">
+          <i class="Icon fab fa-html5 fa-4x"></i>
           <h3>HTML</h3>
-          <p>A amazing tool to build your websites! It was how I built this website from zero. When using it you feel like you are building a picture!</p>
+          <p>A amazing tool to build your websites!</p>
         </div>
-        <div class="skill-row">
-          <img class="CSS" src="images/CSS.png" alt="foto css">
+
+        <div class="skill-box col-lg-3">
+          <i class="Icon fas fa-copyright fa-4x"></i>
+          <h3>C</h3>
+          <p>C was my first programing language!</p>
+        </div>
+        <div class="skill-box col-lg-3">
+        <i class="Icon fab fa-css3-alt fa-4x"></i>
           <h3>CSS</h3>
-          <p>I learned CSS when I needed to style my website, it was the best option I found, it makes you feel like a designer!</p>
+          <p>I learned CSS when I needed to style my website!</p>
         </div>
       </div>
+    </section>
+    <section id="experience">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000" data-bs-pause="houver">
+        <h2 class="xp">My experiences.</h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="Company"><strong>Integration Agent</strong></h2>
+            <img class="experience-img" src="images/Tri-star.png" alt="Tri-star">
+            <p>(2016 - 2017)</p>
+            <p> Tri-Star is a American Airlines outsourced company in Brazil, Bahia, Salvador</p>
+            <p>Working as an Integration Agent you will be doing check ins, check outs, bags, finances,
+              customer service, and sales.</p>
+          </div>
+          <div class="carousel-item">
+            <h2 class="Company"><strong>Reception</strong></h2>
+            <img class="experience-img" src="images/Hilton.png" alt="Tri-star">
+            <p>(2017 - 2019)</p>
+            <p>Hilton Brighton Metropole (Brighton, United Kingdom)</p>
+            <p>I was Working in the Reception, on this job I had to deal with complaints, complete the checklist (complete the Best Guest report) which is a system we use to meet the guests' expectations, making their stay personalized. also help the guests with requests, Understand and demonstrate correct procedures regarding the acceptance of foreign currencies, credit cards and cash in accordance with the hotel credit policy and brand standards. Deal with unexpected situations and always stay calm and try to find a solution. </p>
+          </div>
+          <div class="carousel-item">
+            <h2 class="Company"><strong>Guest Relations</strong></h2>
+            <img class="experience-img" src="images/fasano.png" alt="Tri-star">
+            <p>(2019 - Present)</p>
+            <p>Hotel Fasano Salvador</p>
+            <p>Every customer is unique and special to this luxury hotel. This job is about understanding the customers needs and making sure they have a unique experience. Every time they come it becomes more personalized to the point of knowing which side they prefer to sleep in or the size of their shoes. We look into the details to make their stay  perfect! We also handle complaints both online and in person, also responsible for special moments like Weddings anniversaries, birthdays. Supervising the whole operation regarding the Guest. Our customers expect the best and that's what we need to deliver in this role.</p>
+          </div>
+        </div>
+      </div>
+    </section>
       <div class="contact-me">
-        <h3>Get In Touch</h3>
-        <h3>I will be more than happy to get your message</h3>
+        <h3 id="get-in-touch">Get In Touch</h3>
+        <h3 id="happy-message">I will be more than happy to get your message</h3>
         <p>Please feel free to send an email or contact me using my socials</p>
         <a class="BUTTON_FHV" href="mailto:ricardoaalbuquerquet@gmail.com">Contact me</a>
       </div>
