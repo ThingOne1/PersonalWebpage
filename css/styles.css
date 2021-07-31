@@ -12,7 +12,7 @@ hr {
   width: 4%;
 }
 p {
-  color: #40514E;
+  color: #8f8f8f;
   font-family: 'Merriweather', serif;
   font-weight: normal;
   line-height: 2;
@@ -26,14 +26,36 @@ h1{
 }
 h2{
   color: #334257;
-  font-family: 'Merriweather', serif;
-  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   text-align: center;
 }
 h3{
-    font-family: 'Merriweather', serif;
-    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    color: #334257;
     text-align: center;
+}
+#features{
+  padding: 10% 20%;
+}
+.skill-box{
+  text-align: center;
+  padding: 5%;
+}
+#scrollspyHeading1{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#experience {
+  padding: 10% 20%;
+  text-align: center;
+}
+.Icon{
+  color: #66BFBF;
+  margin-bottom: 1rem;
+}
+.Icon:hover{
+  color: #334257;
 }
 .navbar-brand{
   font-family: "Ubuntu", serif;
@@ -56,6 +78,7 @@ h3{
 }
 .nav-item{
   padding: 0 18px 0 0;
+  font-family: 'Montserrat', sans-serif;
 }
 .navbar{
   padding: auto;
@@ -102,6 +125,7 @@ h3{
   right: 300px;
   top: 50px;
   width: 20%;
+  margin-top: 5%;
 }
 .bottom-Cloud {
   position: absolute;
@@ -136,6 +160,7 @@ h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20%;
 }
 .Contact{
   position: relative;
@@ -197,6 +222,25 @@ h3{
   width: 50px;
   left: 300px;
   margin: auto;
+}
+#get-in-touch{
+  color: #FDEFEF;
+}
+#happy-message{
+  color: #FDEFEF;
+}
+.xp{
+  margin: 13%;
+  font-size: 2rem;
+}
+.experience-img{
+  width: 15%;
+  margin-bottom: 7%;
+  border-radius: 100%;
+}
+.Company{
+  margin: 5%;
+  font-size: 110%;
 }
 .BUTTON_FHV {
    background: #1952A1;
