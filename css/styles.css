@@ -47,7 +47,6 @@ h3{
   padding-bottom: 10%;
 }
 #experience {
-  padding: 10% 20%;
   text-align: center;
 }
 .Icon{
@@ -245,6 +244,9 @@ h3{
 .Company{
   margin: 5%;
   font-size: 110%;
+}
+.carousel-item{
+  padding: 10% 20%;
 }
 .BUTTON_FHV {
    background: #1952A1;
