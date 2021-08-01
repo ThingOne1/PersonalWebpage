@@ -144,7 +144,7 @@ h3{
 }
 @media (max-width: 1028px){
   .student{
-    margin: 2em auto 0 auto;
+    margin: 10% auto 10% auto;
     line-height: 2;
     font-size: 120%;
     width: 70%;
@@ -297,10 +297,19 @@ h3{
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 1028px){
 .experience-img{
   width: 15%;
   margin-bottom: 7%;
   border-radius: 100%;
+}
+}
+@media (max-width: 1028px){
+.experience-img{
+  width: 40%;
+  margin-bottom: 7%;
+  border-radius: 100%;
+}
 }
 .Company{
   margin: 5%;
