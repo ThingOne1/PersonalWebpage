@@ -101,30 +101,50 @@ h3{
   padding-top: 100px;
   padding-bottom: 400px;
 }
+@media (min-width: 1028px){
 .Title{
   text-align: center;
   margin: 3% auto 0 auto;
   line-height: 2;
-  font-size: 400%;
+  font-size: 600%;
   width: 50%;
+}
+}
+@media (max-width: 1028px) {
+  .Title{
+    text-align: center;
+    margin: 3% auto 0 auto;
+    line-height: 2;
+    font-size: 300%;
+    width: 50%;
+}
 }
 .links1{
   margin-left: auto;
   padding-right: auto;
 }
+@media (min-width: 1028px){
 .student{
   margin: 2em auto 0 auto;
   line-height: 2;
   font-size: 150%;
   width: 50%;
 }
-
+}
+@media (max-width: 1028px){
+  .student{
+    margin: 2em auto 0 auto;
+    line-height: 2;
+    font-size: 120%;
+    width: 50%;
+  }
+}
+@media (min-width: 1028px){
 .top-cloud{
   position: absolute;
   right: 300px;
   top: 50px;
   width: 20%;
-  margin-top: 5%;
 }
 .bottom-Cloud {
   position: absolute;
@@ -132,12 +152,38 @@ h3{
   bottom: 300px;
   width: 20%;
 }
+}
+@media (max-width: 1028px) {
+  .top-cloud{
+    position: absolute;
+    right: 10%;
+    top: 50px;
+    width: 30%;
+  }
+  .bottom-Cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 300px;
+    width: 30%;
+  }
+}
+@media (min-width: 1028px){
 .Face{
-  width: 7%;
+  width: 6%;
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+}
+@media (max-width: 1028px) {
+  .Face{
+    width: 15%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .Ricardo-paz{
   margin: 290px auto 0 auto;
@@ -154,6 +200,7 @@ h3{
   position:relative;
   text-align: center;
 }
+@media (min-width: 1028px) {
 .Computador{
   position: relative;
   width: 10%;
@@ -161,6 +208,17 @@ h3{
   margin-left: auto;
   margin-right: auto;
   border-radius: 20%;
+}
+}
+@media (max-width: 1028px) {
+.Computador{
+  position: relative;
+  width: 27%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+}
 }
 .Contact{
   position: relative;
@@ -230,7 +288,7 @@ h3{
   color: #FDEFEF;
 }
 .xp{
-  margin: 13%;
+  margin: 5%;
   font-size: 180%;
   text-align: center;
   margin-left: auto;
