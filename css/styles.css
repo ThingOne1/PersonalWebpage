@@ -58,9 +58,18 @@ h3{
 #Smileface{
   padding-top: 5%;
 }
+@media (min-width: 1028px){
 .Icon{
   color: #66BFBF;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+}
+@media (max-width: 1028px){
+  .Icon{
+    color: #66BFBF;
+    margin-bottom: 2.5rem;
+  }
 }
 .Icon:hover{
   color: #334257;
@@ -124,7 +133,7 @@ h3{
 .Title{
   color: #334257;
   text-align: center;
-  margin: 3% auto 0 auto;
+  margin: auto auto 0 auto;
   line-height: 2;
   font-size: 600%;
   width: 50%;
@@ -140,13 +149,16 @@ h3{
     width: 70%;
 }
 }
+.Title:hover{
+  color: #53B8BB;
+}
 .links1{
   margin-left: auto;
   padding-right: auto;
 }
 @media (min-width: 1028px){
 .student{
-  margin: 2em auto 0 auto;
+  margin: 2em auto 1.5rem auto;
   line-height: 2;
   font-size: 150%;
   width: 50%;
@@ -160,33 +172,46 @@ h3{
     width: 70%;
   }
 }
+.student:hover{
+  color: #53B8BB;
+}
 @media (min-width: 1028px){
 .top-cloud{
+  color: white;
   position: absolute;
-  right: 3%;
+  right: 0;
   top: 7%;
   width: 20%;
 }
 .bottom-Cloud {
+  color: white;
   position: absolute;
-  left: 5%;
+  left: 10%;
   bottom: 7%;
   width: 20%;
 }
 }
 @media (max-width: 1028px) {
   .top-cloud{
+    color: white;
     position: absolute;
-    right: 3%;
+    right: 0;
     top: 5%;
     width: 30%;
   }
   .bottom-Cloud {
+    color: white;
     position: absolute;
     left: 5%;
     bottom: 14%;
     width: 30%;
   }
+}
+.top-cloud:hover{
+  color: #334257;
+}
+.bottom-Cloud:hover{
+  color: #334257;
 }
 @media (min-width: 1028px){
 .Face{
@@ -212,11 +237,24 @@ h3{
   margin: 290px auto 0 auto;
   width: 7%;
 }
+@media (min-width: 1028px) {
 .Intro{
   width: 50%;
   margin: auto;
-  padding-bottom: 7%;
+  padding-bottom: 15%;
   padding-top: 7%;
+}
+}
+@media (max-width: 1028px) {
+  .Intro{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 7%;
+    padding-top: 7%;
+  }
+}
+.Intro:hover{
+  color: #53B8BB;
 }
 @media (min-width: 1028px) {
 .Computador{
