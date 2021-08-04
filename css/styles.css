@@ -181,14 +181,12 @@ h3{
   position: absolute;
   right: 0;
   top: 7%;
-  width: 20%;
 }
 .bottom-Cloud {
   color: white;
   position: absolute;
   left: 10%;
   bottom: 7%;
-  width: 20%;
 }
 }
 @media (max-width: 1028px) {
@@ -197,14 +195,12 @@ h3{
     position: absolute;
     right: 0;
     top: 5%;
-    width: 30%;
   }
   .bottom-Cloud {
     color: white;
     position: absolute;
     left: 5%;
-    bottom: 14%;
-    width: 30%;
+    bottom: 5%;
   }
 }
 .top-cloud:hover{
