@@ -177,6 +177,19 @@ h3{
   color: #53B8BB;
 }
 @media (min-width: 1028px){
+  .embed-responsive-item{
+    bottom: 5%;
+  }
+}
+@media (min-width: 1028px){
+  .embed-responsive-item{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+  }
+}
+
+@media (min-width: 1028px){
 .top-cloud{
   color: white;
   position: absolute;
@@ -385,8 +398,8 @@ h3{
    padding: 13px;
    -webkit-box-shadow: 1px 1px 20px 0 #000000;
    -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 20px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
+   box-shadow: 0.5px 0.5px 10px 0 #000000;
+   text-shadow: 0.5px 0.5px 10px #000000;
    border: solid #000000 1px;
    text-decoration: none;
    display: inline-block;
