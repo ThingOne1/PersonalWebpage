@@ -64,7 +64,7 @@ html {
 }
 @media (max-width: 1028px){
 .banner span{
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Castoro', serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -91,6 +91,7 @@ html {
 .banner span:hover{
   color: #53B8BB;
 }
+@media (min-width: 1028px){
 .banner p {
   font-size: 50px;
   font-weight: 300;
@@ -100,6 +101,18 @@ html {
   animation-name: moveToRight;
   animation-duration: 2s;
 }
+}
+@media (max-width: 1028px){
+  .banner p {
+    font-size: 40px;
+    font-weight: 300;
+    color: #eee;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    animation-name: moveToRight;
+    animation-duration: 2s;
+  }
+  }
 .banner p:hover{
   color: #53B8BB;
 }
