@@ -19,7 +19,7 @@ html {
   overflow: hidden;
   position: relative;
 }
-
+@media (max-width: 1028px){
 .banner{
   width: 100%;
   position: absolute;
@@ -28,19 +28,43 @@ html {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+}
+@media (min-width: 1028px){
+  .banner{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left:50%
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  }
+@media (max-width: 1028px){
 .banner h1{
-  font-size: 80px;
+  font-size: 40px;
   color: #ddd;
   font-weight: 300;
   margin-bottom: 30px;
   animation-name: moveToLeft;
   animation-duration: 2s;
 }
+}
+@media (min-width: 1028px){
+  .banner h1{
+    font-size: 80px;
+    color: #ddd;
+    font-weight: 300;
+    margin-bottom: 30px;
+    animation-name: moveToLeft;
+    animation-duration: 2s;
+  }
+  }
 .banner h1:hover{
   color: #53B8BB;
 }
+@media (max-width: 1028px){
 .banner span{
-  font-size: 100px;
+  font-size: 80px;
   font-family: 'Castoro', serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -50,6 +74,20 @@ html {
   animation-delay: 2s;
   animation-fill-mode: backwards;
 }
+}
+@media (min-width: 1028px){
+  .banner span{
+    font-size: 100px;
+    font-family: 'Castoro', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    animation-name: CVWEBSITE;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+  }
+  }
 .banner span:hover{
   color: #53B8BB;
 }
