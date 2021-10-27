@@ -64,7 +64,7 @@ html {
 }
 @media (max-width: 1028px){
 .banner span{
-  font-size: 80px;
+  font-size: 60px;
   font-family: 'Castoro', serif;
   text-transform: uppercase;
   font-weight: 700;
