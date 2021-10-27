@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Dosis", sans-serif;
 }
 
 html {
@@ -11,134 +10,228 @@ html {
 .container {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-  url(images/code.jpg) center no-repeat;
+  background-color: #051321;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  position: relative;
 }
 
-.banner{
+.card {
+  width: 40rem;
+}
+
+.card-bio {
+  background-color: #646464;
+  padding: 3rem 3rem 8rem 3rem;
+  display: flex;
+  border-radius: 0.5rem 0.5rem 0 0;
+  position: relative;
+  z-index: 100;
+}
+
+.img-wrapper {
+  width: 9rem;
+  height: 9rem;
+  margin-right: 3rem;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.person-info {
+  width: 60%;
+  font-family: "Dosis", serif;
+  color: #fff;
+  text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.person-info h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.person-info p {
+  font-size: 1.8rem;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: -2.5rem;
+  right: 10rem;
+  width: 20rem;
+  height: 6rem;
+  background-color: #2b303a;
+  color: #fff;
+  border-radius: 5rem;
+  border: none;
+  font-family: "Dosis", serif;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.3);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.change .card-btn {
+  width: 6rem;
+  right: 3rem;
+  bottom: -3rem;
+  border-radius: 50%;
+}
+
+.card-btn-contact {
+  transition: all 0.5s 0.1s;
+}
+
+.card-btn-contact,
+.card-btn i {
   width: 100%;
   position: absolute;
-  top: 20%;
-  left:50%
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
-.banner h1{
-  font-size: 80px;
-  color: #ddd;
-  font-weight: 300;
-  margin-bottom: 30px;
-  animation-name: moveToLeft;
-  animation-duration: 2s;
+
+.change .card-btn-contact {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.1s;
 }
-.banner h1:hover{
-  color: #53B8BB;
+
+.card-btn i {
+  opacity: 0;
+  visibility: hidden;
 }
-.banner span{
-  font-size: 100px;
-  font-family: 'Castoro', serif;
-  text-transform: uppercase;
-  font-weight: 700;
+
+.change .card-btn i {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.card-contact {
+  background-color: #171717;
   color: #fff;
-  animation-name: CVWEBSITE;
-  animation-duration: 2s;
-  animation-delay: 2s;
-  animation-fill-mode: backwards;
+  padding: 1.5rem 2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  transform: translateY(-100%);
+  transition: all 0.5s;
 }
-.banner span:hover{
-  color: #53B8BB;
-}
-.banner p {
-  font-size: 50px;
-  font-weight: 300;
-  color: #eee;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  animation-name: moveToRight;
-  animation-duration: 2s;
-}
-.banner p:hover{
-  color: #53B8BB;
-}
-.banner button{
-  width: 180px;
-  padding: 12px;
-  margin: 20px;
-  border-radius: 50px;
-  font-size: 18px;
-  outline: none;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-.btn:hover {
-  transform: translateY(-3px);
-}
-.btn:active {
+
+.change .card-contact {
   transform: translateY(0);
 }
-.btn-left{
-  animation-name: animateBtn;
-  animation-duration: 1.5s;
-  animation-delay: 3.5s;
-  animation-fill-mode: backwards;
-  background-color: #eee;
-  color: #444;
-}
-.btn-left:hover{
-  color: #53B8BB;
-}
-.btn-right{
-  animation-name: animateBtn;
-  animation-duration: 1.5s;
-  animation-delay: 4.0s;
-  animation-fill-mode: backwards;
-  background-color: #eee;
-  color: #444;
-}
-.btn-right:hover{
-  color: #53B8BB;
-}
-@keyframes moveToLeft {
-  0%{
-    transform: translateX(120px);
-    opacity:0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes moveToRight {
-  0%{
-    transform: translateX(-120px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+
+.card-contact h4 {
+  font-family: "Dosis", serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.3);
+  transform: scale(0);
+  transform-origin: left;
+  transition: all 0.5s;
 }
 
-@keyframes animateBtn {
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-
+.change .card-contact h4 {
+  transform: scale(1);
 }
-@keyframes CVWEBSITE{
-  0%{
-    opacity: 0
-  }
-  100%{
-    opacity: 1;
-  }
+
+.card-social {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transform: translateY(-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.email {
+  transition: all 0.5s 0.3s;
+}
+
+.fb {
+  transition: all 0.5s 0.5s;
+}
+
+.linkedin {
+  transition: all 0.5s 0.7s;
+}
+
+.change .card-social {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.email .icon-wrapper {
+  background-color: #dd4b39;
+}
+
+.fb .icon-wrapper {
+  background-color: #3b5998;
+}
+
+.linkedin .icon-wrapper {
+  background-color: #007bb6;
+}
+
+.icon-wrapper i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact-details h4 {
+  font-family: "Dosis", serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.email h4 {
+  color: #dd4b39;
+}
+
+.fb h4 {
+  color: #3b5998;
+}
+
+.linkedin h4 {
+  color: #007bb6;
+}
+
+.contact-details p {
+  font-family: "Dosis", serif;
+  font-size: 1.4rem;
+  color: #444;
+  letter-spacing: 0.1rem;
+}
+
+.card-social span {
+  margin-left: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #999;
 }
