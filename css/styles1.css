@@ -23,7 +23,7 @@ html {
 .banner{
   width: 100%;
   position: absolute;
-  top: 20%;
+  top: 2%;
   left:50%
   transform: translate(-50%, -50%);
   text-align: center;
@@ -44,7 +44,7 @@ html {
   font-size: 40px;
   color: #ddd;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 2%;
   animation-name: moveToLeft;
   animation-duration: 2s;
 }
@@ -64,7 +64,7 @@ html {
 }
 @media (max-width: 1028px){
 .banner span{
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Castoro', serif;
   text-transform: uppercase;
   font-weight: 700;
