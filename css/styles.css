@@ -12,18 +12,18 @@ hr {
   width: 4%;
 }
 p {
-  color: #8f8f8f;
+  color: #eee;
   font-family: 'Merriweather', serif;
   font-weight: normal;
   line-height: 2;
   text-align: center;
 }
 p:hover{
-  color: #53B8BB;
+  color: #eee;
 }
 h1{
   font-family: 'Sacramento', cursive;
-  color: #334257;
+  color: #eee;
   text-align: center;
   font-weight: normal;
 }
@@ -131,7 +131,7 @@ h3:hover{
 }
 .middle-container{
   background-color: #171717;
-  color: #FAEEE0;
+  color: #eee;
   position:relative;
   text-align: center;
 }
@@ -142,23 +142,31 @@ h3:hover{
 }
 @media (min-width: 1028px){
 .Title{
-  color: #334257;
+  color: #eee;
   text-align: center;
   margin: auto auto 0 auto;
   line-height: 2;
   font-size: 600%;
   width: 50%;
+  animation-name: CVWEBSITE;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
 }
 }
 @media (max-width: 1028px) {
   .Title{
-    color: #334257;
+    color: #eee;
     text-align: center;
     margin: auto auto 0 auto;
     padding-top: 20%;
     line-height: 2;
     font-size: 300%;
     width: 70%;
+    animation-name: CVWEBSITE;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
 }
 }
 .Title:hover{
@@ -170,20 +178,28 @@ h3:hover{
 }
 @media (min-width: 1028px){
 .student{
-  color: #334257;
+  color: #eee;
   margin: 2em auto 1.5rem auto;
   line-height: 2;
   font-size: 150%;
   width: 50%;
+  animation-name: moveToLeft;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
 }
 }
 @media (max-width: 1028px){
   .student{
-    color: #334257;
+    color: #eee;
     margin: 10% auto 15% auto;
     line-height: 2;
     font-size: 120%;
     width: 70%;
+    animation-name: moveToLeft;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
   }
 }
 .student:hover{
@@ -259,7 +275,7 @@ h3:hover{
 
 @media (min-width: 1028px) {
 .Intro{
-  color: #FAEEE0;
+  color: #eee;
   width: 50%;
   margin: auto;
   padding-bottom: 15%;
@@ -268,7 +284,7 @@ h3:hover{
 }
 @media (max-width: 1028px) {
   .Intro{
-    color: #FAEEE0;
+    color: #eee;
     width: 70%;
     margin: auto;
     padding-bottom: 7%;
@@ -395,49 +411,45 @@ h3:hover{
 .carousel-item{
   padding: 10% 20%;
 }
-.BUTTON_FHV {
-   background: #1952A1;
-   background-image: -webkit-linear-gradient(top, #11999E, #11999E);
-   background-image: -moz-linear-gradient(top, #11999E, #11999E);
-   background-image: -ms-linear-gradient(top, #11999E, #11999E);
-   background-image: -o-linear-gradient(top, #11999E, #11999E);
-   background-image: -webkit-gradient(to bottom, #1952A1, #EAF6F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: auto;
-   color: #FFFFFF;
-   font-family: 'Merriweather', serif;
-   font-size: 15px;
-   font-weight: 100;
-   padding: 13px;
-   -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 0.5px 0.5px 10px 0 #000000;
-   text-shadow: 0.5px 0.5px 10px #000000;
-   border: solid #000000 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin-top: 2%;
-}
-.BUTTON_FHV:hover {
-   border: solid #11999E 1px;
-   background: #11999E;
-   background-image: -webkit-linear-gradient(top, #1952A1, #EAF6F6);
-   background-image: -moz-linear-gradient(top, #1952A1, #EAF6F6);
-   background-image: -ms-linear-gradient(top, #1952A1, #EAF6F6);
-   background-image: -o-linear-gradient(top, #1952A1, #EAF6F6);
-   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
-}
+
 .Rights-Reserved{
   background-color: #646464;
   font-size: 0.75rem;
   color: #EAF6F6;
   padding: 20px auto 0 auto;
   margin: 20px;
+}
+.carousel-control-next:hover{
+  background-color: #202020;
+}
+.carousel-control-prev:hover{
+  background-color: #202020;
+}
+@keyframes CVWEBSITE{
+  0%{
+    opacity: 0
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes moveToRight {
+  0%{
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes moveToLeft {
+  0%{
+    transform: translateX(120px);
+    opacity:0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
