@@ -201,14 +201,18 @@ h3:hover{
 @media (min-width: 1028px){
   .wrapper{
     font-family: 'Poppins', sans-serif;
-    padding-top: 2%;
-    margin: auto auto auto 33%;
+    padding-top: 2% 0 0 0;
+    margin: 5% auto auto 20%;
     display: inline-flex;
     color: #ffffff;
     line-height: 2;
     font-size: 150%;
     weight: 700;
     width: 50%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
   }
 }
 @media (max-width: 1028px) {
@@ -219,9 +223,10 @@ h3:hover{
     display: inline-flex;
     color: #ffffff;
     line-height: 2;
-    font-size: 150%;
+    font-size: 50%;
     weight: 700;
     width: 50%;
+    text-align: center;
   }
 }
 
@@ -244,12 +249,12 @@ h3:hover{
 }
 .dynamic-txts li{
   list-style: none;
-  color: #53B8BB;
+  color: #eee;
   font-weight: 500;
   font-size: 150%;
   position: relative;
   top: 0;
-  animation: slide 12s steps(4) infinite;
+  animation: slide 16s steps(4) infinite;
 }
 @keyframes slide {
   100%{
@@ -268,7 +273,7 @@ h3:hover{
   width: 100%;
   background-color: #171717;
   border-left: 2px solid #53B8BB;
-  animation: typing 3s steps(11) infinite;
+  animation: typing 4s steps(20) infinite;
 }
 
 @keyframes typing {
