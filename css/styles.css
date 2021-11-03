@@ -202,7 +202,7 @@ h3:hover{
   .wrapper{
     font-family: 'Poppins', sans-serif;
     padding-top: 2% 0 0 0;
-    margin: 5% auto auto 32%;
+    margin: 5% auto auto 33.5%;
     display: inline-flex;
     color: #ffffff;
     line-height: 2;
@@ -219,7 +219,7 @@ h3:hover{
   .wrapper{
     font-family: 'Poppins', sans-serif;
     padding-top: 2%;
-    margin: auto auto auto -12%;
+    margin: auto auto auto auto;
     display: inline-flex;
     color: #ffffff;
     line-height: 2;
